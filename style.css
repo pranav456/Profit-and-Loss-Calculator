@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed&family=Josefin+Sans:wght@300&family=Lato:ital,wght@1,300&family=Open+Sans&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Fira Sans Condensed", sans-serif;
+  background-color: aquamarine;
+}
+
+header h1 {
+  padding: 20px 20px;
+  text-align: center;
+  color: black;
+}
+
+section {
+  width: 40vw;
+  margin: 10px auto;
+  text-align: center;
+  margin-left: 18px;
+}
+
+div {
+  margin: 20px;
+}
+
+div > h2 {
+  text-align: start;
+  color: black;
+  margin-left: 5.5rem;
+}
+
+div > input {
+  margin: 18px 0px 25px;
+  padding: 10px;
+  border: 2px solid black;
+  border-radius: 8px;
+  font-size: 20px;
+  outline: none;
+  width: 70%;
+  display: flex;
+  color: black;
+}
+
+button {
+  padding: 8px 30px;
+  border: none;
+  background-color: cadetblue;
+  color: black;
+  font-size: 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-bottom: 20px;
+  display: flex;
+  font-weight: bold;
+}
+
+#output {
+  font-size: 20px;
+  padding: 18px 0px;
+  display: none;
+  font-weight: bold;
+  margin-left: 1px;
+  position: absolute;
+}
