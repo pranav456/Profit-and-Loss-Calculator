@@ -4,63 +4,57 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+body {
   font-family: "Fira Sans Condensed", sans-serif;
   background-color: aquamarine;
+  text-align: center;
 }
 
 header h1 {
-  padding: 20px 20px;
+  padding: 10px 10px;
   text-align: center;
   color: black;
 }
-
-section {
-  width: 40vw;
-  margin: 10px auto;
-  text-align: center;
-  margin-left: 18px;
-}
-
+/* 
 div {
   margin: 20px;
+} */
+
+main h2 {
+  margin: 1rem;
 }
 
-div > h2 {
-  text-align: start;
-  color: black;
-  margin-left: 5.5rem;
+main {
+  margin: 0 0 7rem;
 }
 
-div > input {
-  margin: 18px 0px 25px;
-  padding: 10px;
-  border: 2px solid black;
-  border-radius: 8px;
-  font-size: 20px;
-  outline: none;
-  width: 70%;
-  display: flex;
-  color: black;
+.input-text {
+  font-size: 14px;
+  outline: #fff;
+  padding: 0.6rem 1rem;
+
+  border: 2px solid indigo;
+  border-radius: 0.5rem;
+  width: 100%;
+  max-width: 258px;
 }
 
-button {
-  padding: 8px 30px;
+#check-btn {
+  background: blueviolet;
   border: none;
-  background-color: cadetblue;
-  color: black;
-  font-size: 20px;
-  border-radius: 10px;
+  color: #fff;
+  padding: 0.7rem 1rem;
+  border-radius: 0.5rem;
+  font-size: large;
   cursor: pointer;
-  margin-bottom: 20px;
-  display: flex;
-  font-weight: bold;
+  outline: #fff;
+  margin: 1rem auto;
+  display: block;
 }
 
 #output {
-  font-size: 20px;
-  padding: 18px 0px;
-  display: none;
   font-weight: bold;
-  margin-left: 1px;
-  position: absolute;
+  font-size: large;
 }
