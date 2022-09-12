@@ -13,14 +13,14 @@ const showResult = (msg, color) => {
 const calculate = (ip, qty, cp) => {
   if (cp > ip) {
     const netProfit = (cp - ip) * qty;
-    const profitPercentage = Math.trunc((netProfit / ip) * 100);
+    const profitPercentage = Math.trunc((netProfit / (ip * qty)) * 100);
     showResult(
       `Your profit is ${netProfit} and profit percentage is ${profitPercentage}%`,
       "green"
     );
   } else if (cp < ip) {
     const netLoss = (ip - cp) * qty;
-    const lossPercentage = Math.trunc((netLoss / ip) * 100);
+    const lossPercentage = Math.trunc((netLoss / (ip * qty)) * 100);
     showResult(
       `Your loss is ${netLoss} and loss percentage is ${lossPercentage}%`,
       "red"
